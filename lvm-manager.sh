@@ -495,10 +495,10 @@ pvmove_data() {
 snapshot_lv() {
     title "SNAPSHOT LVM"
 
-    echo "  ${BLD}1)${RST} Créer un snapshot"
-    echo "  ${BLD}2)${RST} Lister les snapshots existants"
-    echo "  ${BLD}3)${RST} Restaurer (merger) un snapshot"
-    echo "  ${BLD}4)${RST} Supprimer un snapshot"
+    echo -e "  ${BLD}1)${RST} Créer un snapshot"
+    echo -e "  ${BLD}2)${RST} Lister les snapshots existants"
+    echo -e "  ${BLD}3)${RST} Restaurer (merger) un snapshot"
+    echo -e "  ${BLD}4)${RST} Supprimer un snapshot"
     echo
     read -rp "$(echo -e "${CYN}Choix${RST} [1-4] : ")" snap_action
 
